@@ -1,4 +1,4 @@
-![zaap](https://github.com/zaapnetwork/zaap-doc/raw/master/resources/zaap.png "zaap")
+![zaap](https://github.com/zaapnetwork/zaap-doc-master/blob/master/resources/zaap.png "zaap")
 
 # Setup a Masternode with Ubuntu 16.04 VPS
 
@@ -54,7 +54,7 @@ The options that you have to select are the following:
 
 In the image you will see the two options that you will have to select.
 
-![Options on Wallet Settings to select](https://github.com/zaapnetwork/zaap-doc/blob/master/masternode-setup/zaapwalletsettings.png "Wallet Settings")
+![Options on Wallet Settings to select](https://github.com/zaapnetwork/zaap-doc-master/blob/master/masternode-setup/zaapwalletsettings.png "Wallet Settings")
 
 Press "OK" button. In order to enable the new options, you have to restart zaap Core wallet.
 
