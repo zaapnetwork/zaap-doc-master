@@ -199,8 +199,8 @@ masternodeprivkey=WALLET_GENKEY
 With your info!
 
 ```
-rpcuser=randuser43897ty8943
-rpcpassword=passhf95uiygr5308h08r3h0249fbgh7389h973
+rpcuser=randuserusertext
+rpcpassword=passwordrandomtext
 rpcallowip=127.0.0.1
 listen=1
 server=1
@@ -301,14 +301,14 @@ Use `watch zaap-cli getinfo` to check and wait until it's synced (look for block
    Leave the file open
 2. Go to "Tools" -> "Debug console"
 3. Run the following command: `masternode outputs`
-4. You should see output like the following if you have a transaction with exactly 1000 zaap:
+4. You should see output like the following if you have a transaction with exactly 2500 zaap:
 ```
 {
     "12345678xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx": "0"
 }
 ```
 5. The value on the left is your `txid` and the right is the `vout`.
-6. Add a line to the bottom of the already opened `masternode.conf` file using the IP of your VPS (with port 24126), `private key`, `txid` and `vout`:
+6. Add a line to the bottom of the already opened `masternode.conf` file using the IP of your VPS (with port 25193), `private key`, `txid` and `vout`:
 ```
 mn1 1.2.3.4:24126 3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 12345678xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 0
 ```
