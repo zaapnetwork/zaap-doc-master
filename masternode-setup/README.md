@@ -211,7 +211,7 @@ externalip=VPS_IP_ADDRESS
 masternodeprivkey=WALLET_GENKEY
 masternode=1
 
-
+```
 CTRL X to save it. Y for yes, then ENTER.
 
 ### Create zaap Service
@@ -250,7 +250,7 @@ systemctl enable zaapd
 systemctl start zaapd
 ```
 
-#### Installing Sentinel
+#### Installing Sentinel (Not need in Zaap v1.0.0)
 
 ```
 apt-get -y install virtualenv python-pip
