@@ -250,7 +250,7 @@ systemctl enable zaapd
 systemctl start zaapd
 ```
 
-#### Installing Sentinel (No need on v1.0.0)
+#### Installing Sentinel
 
 ```
 apt-get -y install virtualenv python-pip
@@ -310,7 +310,7 @@ Use `watch zaap-cli getinfo` to check and wait until it's synced (look for block
 5. The value on the left is your `txid` and the right is the `vout`.
 6. Add a line to the bottom of the already opened `masternode.conf` file using the IP of your VPS (with port 25193), `private key`, `txid` and `vout`:
 ```
-mn1 1.2.3.4:24126 3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 12345678xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 0
+mn1 1.2.3.4:25193 3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 12345678xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 0
 ```
 7. Save the file, exit your wallet and reopen your wallet.
 8. Go to the "Masternodes" tab.
